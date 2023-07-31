@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	
+        <servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+        
+         <servlet>
+		<servlet-name>Signup</servlet-name>
+		<servlet-class>Signup</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Signup</servlet-name>
+		<url-pattern>/Signup</url-pattern>
+	</servlet-mapping>
+
+         <servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>LogoutServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+
+         <servlet>
+		<servlet-name>Add</servlet-name>
+		<servlet-class>Add</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Add</servlet-name>
+		<url-pattern>/Add</url-pattern>
+	</servlet-mapping>
+
+         <servlet>
+		<servlet-name>Delete</servlet-name>
+		<servlet-class>Delete</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/Delete</url-pattern>
+	</servlet-mapping>
+
+        <servlet>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>Update</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/Update</url-pattern>
+	</servlet-mapping>
+
+        <servlet>
+		<servlet-name>toUpdate</servlet-name>
+		<servlet-class>toUpdate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>toUpdate</servlet-name>
+		<url-pattern>/toUpdate</url-pattern>
+	</servlet-mapping>
+
+        <servlet>
+		<servlet-name>toAdd</servlet-name>
+		<servlet-class>toAdd</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>toAdd</servlet-name>
+		<url-pattern>/toAdd</url-pattern>
+	</servlet-mapping>
+
+        <servlet>
+		<servlet-name>toDelete</servlet-name>
+		<servlet-class>toDelete</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>toDelete</servlet-name>
+		<url-pattern>/toDelete</url-pattern>
+	</servlet-mapping>
+
+        <servlet>
+		<servlet-name>toLogin</servlet-name>
+		<servlet-class>toLogin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>toLogin</servlet-name>
+		<url-pattern>/toLogin</url-pattern>
+	</servlet-mapping>
+
+        <servlet>
+		<servlet-name>toView</servlet-name>
+		<servlet-class>toView</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>toView</servlet-name>
+		<url-pattern>/toView</url-pattern>
+	</servlet-mapping>
+
+        <servlet>
+		<servlet-name>View</servlet-name>
+		<servlet-class>View</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>View</servlet-name>
+		<url-pattern>/View</url-pattern>
+	</servlet-mapping>
+   
+        <servlet>
+		<servlet-name>Order</servlet-name>
+		<servlet-class>Order</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Order</servlet-name>
+		<url-pattern>/Order</url-pattern>
+	</servlet-mapping>
+
+        <servlet>
+		<servlet-name>Checkout</servlet-name>
+		<servlet-class>Checkout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Checkout</servlet-name>
+		<url-pattern>/Checkout</url-pattern>
+	</servlet-mapping>
+
+        <servlet>
+		<servlet-name>Addtocart</servlet-name>
+		<servlet-class>Addtocart</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Addtocart</servlet-name>
+		<url-pattern>/Addtocart</url-pattern>
+	</servlet-mapping>
+
+        <servlet>
+		<servlet-name>Viewcart</servlet-name>
+		<servlet-class>Viewcart</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Viewcart</servlet-name>
+		<url-pattern>/Viewcart</url-pattern>
+	</servlet-mapping>
+
+        
+
+
+</web-app>
